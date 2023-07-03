@@ -18,15 +18,25 @@ To install ImageVerse, follow these simple steps:
 
 Once installed, ImageVerse seamlessly integrates into your Chrome browser, ready to accompany you on your visual journey.
 
-# Contributing
-ImageVerse is an open-source project, and contributions are welcome! To contribute, follow these steps:
+# Running the Application
 
-<ol>
-  <li>Fork the ImageVerse repository.</li>
-  <li>Create a new branch for your feature or bug fix.</li>
-  <li>Make your changes and ensure all tests pass.</li>
-  <li>Submit a pull request, providing a detailed description of your changes.</li>
-</ol>
+To run the ImageVerse application locally, you'll need to follow these steps:
+
+ 1. Clone the ImageVerse repository to your local machine.
+ 2. Install the required dependencies by running the following command in the project's root directory:
+
+> npm install
+3. Build the application by running the following command:
+> ng build
+>
+> This will generate a `dist` folder containing the built application files.
+4. Open Google Chrome and go to `chrome://extensions` in the address bar.
+5. Enable the "Developer mode" toggle in the top right corner of the Extensions page.
+6. Click on the "Load unpacked" button.
+7. Navigate to the `dist` folder of the ImageVerse application and select it.
+8. The ImageVerse extension will now be loaded into Chrome.
+
+*Note: Remember to rebuild and reload the extension whenever you make changes to the code by repeating steps 3-8. Don't forget to get HuggingFace api_key*
 
 # Acknowledgements
 We would like to express our gratitude to the following project:
