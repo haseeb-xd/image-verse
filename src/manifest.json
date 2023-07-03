@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "ImageVerse - Generate Images for Chrome",
+    "description": "ImageVerse is a Chrome Extension that allows you to generate images from your Chrome Browser. ",
+    "version": "1.0.0",
+    "icons": {
+        "16": "assets/images/icon.png"
+    },
+    "action": {
+        "default_popup": "index.html"
+    }
+
+}
