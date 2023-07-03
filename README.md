@@ -34,5 +34,5 @@ We would like to express our gratitude to the following project:
 [HuggingFace](https://huggingface.co/models) - for their groundbreaking language models that power ImageVerse.
 
 # License
-ImageVerse is released under the [MIT License]().
+ImageVerse is released under the [MIT License](https://github.com/haseeb-xd/image-verse/blob/main/LICENSE).
 
