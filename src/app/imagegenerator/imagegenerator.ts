@@ -17,13 +17,11 @@ export class ImageGeneratorComponent {
   searchText: any = "";
   searchResult: any = "";
   searchTextRequest: any = "";
-  IsWait: boolean = false;
   IsError: boolean = false;
   API_KEY: string = "YOUR_HUGGING_FACE_API_KEY"
   myImage = document.querySelector('img');
 
   search() {
-    IsWait: true;
     console.log(this.searchText);
 
     if (this.searchText == "") {
