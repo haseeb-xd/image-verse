@@ -19,7 +19,7 @@ export class ImageGeneratorComponent {
   searchTextRequest: any = "";
   IsWait: boolean = false;
   IsError: boolean = false;
-  API_KEY: string = "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"
+  API_KEY: string = "YOUR_HUGGING_FACE_API_KEY"
   myImage = document.querySelector('img');
 
   search() {
