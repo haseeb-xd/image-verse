@@ -18,6 +18,8 @@ To install ImageVerse, follow these simple steps:
 
 Once installed, ImageVerse seamlessly integrates into your Chrome browser, ready to accompany you on your visual journey.
 
+*Note: Right now, It's pending for review. Will be released on Chrome Extension Store soon*
+
 # Running the Application
 
 To run the ImageVerse application locally, you'll need to follow these steps:
