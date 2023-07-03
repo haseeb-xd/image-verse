@@ -20,6 +20,12 @@ Once installed, ImageVerse seamlessly integrates into your Chrome browser, ready
 
 *Note: Right now, It's pending for review. Will be released on Chrome Extension Store soon*
 
+# Screenshot
+
+
+<img  alt="screenshot" src="https://github.com/haseeb-xd/image-verse/assets/47222685/14372fce-37a3-4d52-8034-0b2b8f94b89c" width="500px"/>
+
+
 # Running the Application
 
 To run the ImageVerse application locally, you'll need to follow these steps:
