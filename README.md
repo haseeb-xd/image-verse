@@ -18,3 +18,20 @@ To install ImageVerse, follow these simple steps:
 
 Once installed, ImageVerse seamlessly integrates into your Chrome browser, ready to accompany you on your visual journey.
 
+# Contributing
+ImageVerse is an open-source project, and contributions are welcome! To contribute, follow these steps:
+
+<ol>
+  <li>Fork the ImageVerse repository.</li>
+  <li>Create a new branch for your feature or bug fix.</li>
+  <li>Make your changes and ensure all tests pass.</li>
+  <li>Submit a pull request, providing a detailed description of your changes.</li>
+</ol>
+
+# Acknowledgements
+We would like to express our gratitude to the following project:
+
+[HuggingFace](https://huggingface.co/models) - for their groundbreaking language models that power ImageVerse.
+
+
+
