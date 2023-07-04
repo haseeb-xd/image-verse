@@ -51,6 +51,12 @@ We would like to express our gratitude to the following project:
 
 [HuggingFace](https://huggingface.co/models) - for their groundbreaking language models that power ImageVerse.
 
+## Donate
+
+Become a patron, by simply clicking on this button (**very appreciated!**):
+
+[![](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/checkout/HaseebAnsari/9950942)
+
 # License
 ImageVerse is released under the [MIT License](https://github.com/haseeb-xd/image-verse/blob/main/LICENSE).
 
