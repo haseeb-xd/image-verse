@@ -18,6 +18,7 @@ To install ImageVerse, follow these simple steps:
 
 Once installed, ImageVerse seamlessly integrates into your Chrome browser, ready to accompany you on your visual journey.
 
+Here is link if you can't find the extension : [ImageVerse Chrome Extension](https://chrome.google.com/webstore/detail/imageverse-generate-image/keampdfclajijhbendkfejedghembnlk)
 
 # Screenshot
 
