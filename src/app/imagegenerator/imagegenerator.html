@@ -1,34 +1,41 @@
-
 <div class="contaier">
 
-    <div style="text-align: center;">
-        <img  style="width: 40%; height: 40%;" src = "../../assets/images/people.svg" alt="image"/>
+  <div style="text-align: center;">
+    <img style="width: 40%; height: 40%;" src="../../assets/images/people.svg" alt="image" />
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="text-center custom-text" style="text-align: center;">Create stunning visuals with just a few
+        keystrokes!</h1>
     </div>
+  </div>
 
-    <div class="row">
-        <div class="col-md-12">
-            <h1 class="text-center custom-text" style="text-align: center;">Create stunning visuals with just a few keystrokes!</h1>
-        </div>
+  <div>
+    <mat-grid-list cols="2" style="text-align: center !important;">
+      <mat-form-field appearance="fill" style="width:400px !important">
+        <input matInput style="background-color: #FFCF77 !important; background: white !important; height: 30px;"
+          placeholder="Type your prompt here" [(ngModel)]="searchText" (ngModelChange)="onChange($event)" />
+      </mat-form-field>
+      <div class="search-button">
+        <button mat-raised-button style="background-color: #FFCF77;" (click)="search()">Generate</button>
+      </div>
+    </mat-grid-list>
+  </div>
+  <div style="align-content: center;">
+    <div *ngIf="isLoading" class="uploader-status">
+      <mat-progress-spinner mode="indeterminate"></mat-progress-spinner>
     </div>
+  </div>
 
-    <div>
-        <mat-grid-list cols="2" style="text-align: center !important;">
-            <mat-form-field appearance="fill" style="width:400px !important">
-              <input matInput style="background-color: #FFCF77 !important; background: white !important; height: 30px;" placeholder="Type your prompt here" [(ngModel)]="searchText" (ngModelChange)="onChange($event)" />
-            </mat-form-field>
-            <div class="search-button">
-              <button mat-raised-button  style="background-color: #FFCF77;" (click)="search()">Generate</button>
-            </div>
-        </mat-grid-list>
-      </div>
+  <div class="container" *ngIf="!IsError" style="margin-top: 10px;">
+    <img id='img1' [src]=getSantizeUrl(searchResult) *ngIf="searchResult" alt="Preview Image"
+      style="width: 100px; height: 100px;" />
+    <button mat-raised-button style="background-color: #FFCF77; margin-left: 20px; margin-bottom: 10px;"
+      *ngIf="searchResult" (click)="downloadImage()">Download</button>
+  </div>
 
-      <div class="container" *ngIf="!IsError" style="margin-top: 10px;">
-        <img  id='img1' [src]=getSantizeUrl(searchResult) *ngIf="searchResult" alt="Preview Image" style="width: 100px; height: 100px;" />
-        <button mat-raised-button  style="background-color: #FFCF77; margin-left: 20px; margin-bottom: 10px;" *ngIf="searchResult" (click)="downloadImage()">Download</button>
-      </div>
-
-        <div class="container" *ngIf="IsError">
-            <h1 class="text-center custom-text" style="text-align: center;">No results found!</h1>
-        </div>
+  <div class="container" *ngIf="IsError">
+    <h1 class="text-center custom-text" style="text-align: center;">No results found!</h1>
+  </div>
 </div>
-
