@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
 
-
 @Component({
   selector: 'imagegenerator',
   templateUrl: './imagegenerator.html',
@@ -10,7 +9,7 @@ import { DomSanitizer } from '@angular/platform-browser';
 })
 export class ImageGeneratorComponent {
   title = 'image-verse';
-
+  isLoading = false;
 
   constructor(private sanitizer: DomSanitizer) { }
 
@@ -21,9 +20,10 @@ export class ImageGeneratorComponent {
   API_KEY: string = "YOUR_HUGGING_FACE_API_KEY"
   myImage = document.querySelector('img');
 
+
   search() {
     console.log(this.searchText);
-
+    this.isLoading = true;
     if (this.searchText == "") {
       this.searchTextRequest = "https://i.imgur.com/7yPHn.jpg";
     }
@@ -60,9 +60,10 @@ export class ImageGeneratorComponent {
       const data = await response.blob();
       this.searchResult = URL.createObjectURL(data);
       console.log(this.searchResult);
-
+      this.isLoading = false;
     }
     catch (err) {
+      this.isLoading = false;
       console.log(err);
       this.IsError = true;
       setTimeout(() => {
