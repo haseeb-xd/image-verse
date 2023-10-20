@@ -1,4 +1,7 @@
 # ImageVerse - Inspire Your Visual Journey
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
 <img  alt="icon" src="https://github.com/haseeb-xd/image-verse/assets/47222685/ede0fdf2-3295-40a2-b8d0-2b2d58b17fb9" width="100px"/>
@@ -60,3 +63,25 @@ Become a patron, by simply clicking on this button (**very appreciated!**):
 # License
 ImageVerse is released under the [MIT License](https://github.com/haseeb-xd/image-verse/blob/main/LICENSE).
 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/PC-11-00"><img src="https://avatars.githubusercontent.com/u/76156941?v=4?s=100" width="100px;" alt="Pushpendra"/><br /><sub><b>Pushpendra</b></sub></a><br /><a href="#design-PC-11-00" title="Design">🎨</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
