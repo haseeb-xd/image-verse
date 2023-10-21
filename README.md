@@ -1,6 +1,6 @@
 # ImageVerse - Inspire Your Visual Journey
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -75,6 +75,7 @@ Thanks to these wonderful people 💜
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/PC-11-00"><img src="https://avatars.githubusercontent.com/u/76156941?v=4?s=100" width="100px;" alt="Pushpendra"/><br /><sub><b>Pushpendra</b></sub></a><br /><a href="#design-PC-11-00" title="Design">🎨</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/maheshchandra10"><img src="https://avatars.githubusercontent.com/u/148360659?v=4?s=100" width="100px;" alt="Mahesh Chandra"/><br /><sub><b>Mahesh Chandra</b></sub></a><br /><a href="https://github.com/haseeb-xd/image-verse/commits?author=maheshchandra10" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
