@@ -60,7 +60,7 @@ We follow these guidelines for contributing:
 
 ## Setting Up the Development Environment
 
-We follow these guidelines for contributing:
+To set up the development environment locally, follow these steps:
 
 1. Fork the repository to your GitHub account.
 
