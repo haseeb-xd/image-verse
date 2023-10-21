@@ -15,6 +15,15 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "maheshchandra10",
+      "name": "Mahesh Chandra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/148360659?v=4",
+      "profile": "https://github.com/maheshchandra10",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
