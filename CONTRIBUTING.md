@@ -25,7 +25,7 @@ We follow these guidelines for contributing:
 2. Clone your forked repository to your local machine:
 
    ```bash
-   git clone https://github.com/haseeb-xd/image-verse.git
+   git clone https://github.com/user-name/image-verse.git
    ```
    
 3. Navigate to the project directory:
